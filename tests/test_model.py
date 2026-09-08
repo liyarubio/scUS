@@ -39,13 +39,19 @@ def test_masked_model_loss_backward_and_embeddings():
 def test_checkpoint_round_trip(tmp_path):
     model = MaskedModel(vocab_size=16, bin_size=15, embed_dim=8, num_heads=2, num_layers=1)
     path = tmp_path / "model.ckpt"
+    settings = dict(vocab_size=16, bin_size=15, embed_dim=8, num_heads=2, num_layers=1)
     torch.save(
         {
             "pytorch-lightning_version": "2.5.0",
-            "hyper_parameters": dict(model.hparams),
+            "hyper_parameters": settings,
             "state_dict": model.state_dict(),
         },
         path,
     )
     restored = MaskedModel.load_from_checkpoint(path, map_location="cpu")
     assert restored.embed.gene_embedding.weight.shape == model.embed.gene_embedding.weight.shape
+    model.eval()
+    restored.eval()
+    data = batch()
+    data['gene_ids'].clamp_(max=15)
+    torch.testing.assert_close(model(data), restored(data))

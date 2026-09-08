@@ -122,7 +122,7 @@ class FlashMHA(nn.Module):
                 qkv_upd,
                 cu_seqlens,
                 max_seqlen,
-                dropout_p=self.dropout_p,
+                dropout_p=self.dropout_p if self.training else 0.0,
                 softmax_scale=self.softmax_scale,
                 causal=self.causal,
             )  # (total_tokens, H, Dh)
@@ -132,7 +132,7 @@ class FlashMHA(nn.Module):
             # ---- contiguous sequence (no pad) --------------------------------
             out = flash_attn_qkvpacked_func(
                 qkv,
-                dropout_p=self.dropout_p,
+                dropout_p=self.dropout_p if self.training else 0.0,
                 softmax_scale=self.softmax_scale,
                 causal=self.causal,
             )  # (B,N,H,Dh)

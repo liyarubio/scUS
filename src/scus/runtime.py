@@ -5,11 +5,14 @@ import os
 import time
 from pathlib import Path
 from typing import Any
-import numpy as np
-import torch
-import torch.nn.functional as F
+import hashlib
 
-from .artifacts import sha256
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open('rb') as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b''):
+            digest.update(chunk)
+    return digest.hexdigest()
 
 
 def write_json(path: Path, value: Any) -> None:
@@ -48,14 +51,3 @@ def provenance(cfg: dict, stage: str, tag: str | None = None, extra: dict | None
         record.update(extra)
     write_json(out / "run_config.json", record)
     return out
-
-
-def cosine_distance(a: torch.Tensor, b: torch.Tensor) -> torch.Tensor:
-    return 1 - (F.normalize(a.float(), dim=-1) * F.normalize(b.float(), dim=-1)).sum(-1)
-
-
-def robust_z(values):
-    values = np.asarray(values, float)
-    median = np.nanmedian(values)
-    mad = np.nanmedian(np.abs(values - median))
-    return (values - median) / (1.4826 * mad if mad > 0 else 1.0)

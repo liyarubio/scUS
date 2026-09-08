@@ -21,6 +21,8 @@ dist/
 *.h5ad
 *.loom
 *.pt
+*.pth
+*.h5
 *.npy
 *.npz
 *.parquet

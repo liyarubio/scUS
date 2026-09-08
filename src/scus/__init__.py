@@ -1,3 +1,3 @@
-"""scUS: pretraining, zero-shot inference, and frozen-encoder alignment."""
+"""scUS masked Transformer and pretraining pipeline."""
 
 __version__ = "0.1.0"
