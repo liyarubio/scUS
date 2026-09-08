@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+build/
+dist/
+.venv/
+.env
+.DS_Store
+
+# Runtime data and large artifacts
+/data/
+/outputs/
+/checkpoints/
+/logs/
+/artifacts/downloads/
+*.ckpt
+*.h5ad
+*.loom
+*.pt
+*.npy
+*.npz
+*.parquet
+
+# Local path-bearing configurations
+configs/local*.yaml
+examples/**/local*.yaml

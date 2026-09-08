@@ -1,0 +1,34 @@
+workflow: pretrain
+seed: 618
+output_dir: ../outputs/pretrain
+
+data:
+  input_dir: ../data/pretraining_h5ad
+  pattern: "*.h5ad"
+  token_dir: ../data/token_shards
+  vocab: ../artifacts/downloads/gene_vocab.json
+  mu_layer: Mu
+  ms_layer: Ms
+  gene_symbol_column: gene_name
+  compute_moments: false
+  log1p: true
+  top_k_genes: 1000
+
+model:
+  embed_dim: 128
+  bin_size: 15
+  num_heads: 8
+  num_layers: 6
+  mask_ratio: 0.3
+
+pretrain:
+  batch_size: 32
+  num_workers: 2
+  validation_fraction: 0.02
+  learning_rate: 0.0001
+  epochs: 200
+  accelerator: gpu
+  devices: auto
+  strategy: auto
+  precision: 16-mixed
+  save_top_k: 3

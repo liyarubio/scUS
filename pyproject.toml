@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scus-model"
+version = "0.1.0"
+description = "scUS masked Transformer model and pretraining pipeline"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<2.0", "pyyaml>=6", "torch>=2.1"]
+
+[project.optional-dependencies]
+train = ["lightning>=2.2", "anndata>=0.10", "scanpy>=1.9", "scvelo>=0.3", "tensorboard>=2.14", "tqdm>=4.66"]
+dev = ["pytest>=7.4", "ruff>=0.5", "build>=1.2"]
+flash-attn = ["flash-attn>=2.5; platform_system == 'Linux'"]
+
+[project.scripts]
+scus-pretrain = "scus.pretrain:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
