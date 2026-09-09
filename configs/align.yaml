@@ -1,0 +1,33 @@
+seed: 42
+device: cuda:0
+output_dir: ../outputs/align
+
+data:
+  input: ../data/example.h5ad
+  vocab: ../artifacts/downloads/gene_vocab.json
+  species: human
+  gene_symbol_column: gene_name
+  mu_layer: Mu
+  ms_layer: Ms
+
+model:
+  checkpoint: ../artifacts/downloads/scus-v1-epoch11.ckpt
+  embed_dim: 128
+  bin_size: 15
+
+zero_shot:
+  max_genes: 1000
+  batch_size: 4
+
+align:
+  mode: shared_residual
+  strata: [cell_type, sample]
+  split_group: sample
+  reservoir_max_cells: 50000
+  reservoir_pairs_per_cell: 512
+  epochs: 30
+  steps_per_epoch: 200
+  batch_pairs: 65536
+  learning_rate: 0.0005
+  adversarial_weight: 0.1
+  warmup_epochs: 5

@@ -1,8 +1,8 @@
 # scUS Model
 
 scUS is a masked Transformer for paired unspliced/spliced single-cell inputs.
-This repository contains the model, tokenization contract, and pretraining
-pipeline. Analysis results, figures, datasets, and checkpoints are deliberately
+This repository contains the model, tokenization contract, pretraining,
+shared-residual Align and U/S distance computation. Analysis results, figures, datasets, and checkpoints are deliberately
 not included.
 
 ## Architecture
@@ -120,3 +120,31 @@ GitHub Release assets or in external artifact storage.
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## Align and U/S distance
+
+Install the optional data/inference dependencies:
+
+```bash
+python -m pip install -e ".[align]"
+```
+
+Set the local H5AD, vocabulary and pretrained checkpoint paths in
+`configs/align.yaml`. The checkpoint and vocabulary must use the same gene IDs.
+The `sample` observation column must contain at least two groups for the
+Align train/validation split; change `align.split_group` to your group column.
+
+```bash
+scus prepare --config configs/align.yaml
+scus distance --config configs/align.yaml --device cpu
+scus align-fit --config configs/align.yaml --device cpu
+scus align-project --config configs/align.yaml --device cpu
+```
+
+Use `--device cuda:0` for GPU execution. Each command writes its own stage
+directory under the configured output path. The raw distances are preserved
+when computing aligned distances. Only code and configuration are published;
+generated outputs and checkpoints stay in the ignored `outputs/` directory.
+
+See [Align architecture, objective and distance format](docs/align_distance.md)
+for formulas, Python interfaces and output interpretation.
