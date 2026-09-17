@@ -2,8 +2,24 @@
 
 scUS is a masked Transformer for paired unspliced/spliced single-cell inputs.
 This repository contains the model, tokenization contract, pretraining,
-shared-residual Align and U/S distance computation. Analysis results, figures, datasets, and checkpoints are deliberately
-not included.
+shared-residual Align and U/S distance computation. Selected research reports,
+figures and lightweight result tables are published separately under
+[`results/`](results/README.md). Raw datasets, full embeddings and checkpoints
+are not included.
+
+## Research results
+
+The [2026-09-17 results snapshot](results/modality_differences_20260917/README.md)
+examines whether differences between paired RNA representations can themselves
+encode cell state. It includes a Chinese evidence summary, original PNG/PDF
+figures, result tables, and provenance hashes. Negative controls and limitations
+are retained; the results do not establish RNA velocity, causal effects,
+universal anomaly detection, or state-of-the-art performance.
+
+Start with [the main results and interpretation](results/modality_differences_20260917/MODALITY_DIFFERENCES_AS_CELL_REPRESENTATIONS_CN.md).
+Historical joint-fine-tuning analyses in the snapshot are distinct from the
+shared-residual Align workflow implemented in this package. The result snapshot
+is not a standalone reproduction environment for every historical experiment.
 
 ## Architecture
 
@@ -143,8 +159,9 @@ scus align-project --config configs/align.yaml --device cpu
 
 Use `--device cuda:0` for GPU execution. Each command writes its own stage
 directory under the configured output path. The raw distances are preserved
-when computing aligned distances. Only code and configuration are published;
-generated outputs and checkpoints stay in the ignored `outputs/` directory.
+when computing aligned distances. Locally generated outputs and checkpoints
+stay in the ignored `outputs/` directory; only explicitly curated result
+snapshots are published under `results/`.
 
 See [Align architecture, objective and distance format](docs/align_distance.md)
 for formulas, Python interfaces and output interpretation.

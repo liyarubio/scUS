@@ -1,0 +1,4 @@
+stage,epoch,heldout_balanced_accuracy,reconstruction_ce,pairing_effect,knn_overlap_with_zero,distance_spearman_with_zero,effective_rank,source_note
+Zero-shot,-1,0.8682084595375394,2.0951709485415257,6.2053542137146,1.0,1.0,4.503792108068296,Zero-shot external BA plus raw validation QC
+Joint epoch 29,29,0.9082442355251716,2.0452893606641074,2.277489423751831,0.6621212121212121,0.2776267525162663,4.044712455974994,Historical Joint adv=0.1 rec=0.3 seed42 trajectory
+Joint epoch 49,49,0.8949168716691152,2.030353882999131,2.090349674224853,0.607070707070707,-0.151195128696133,3.440999733617712,Historical Joint adv=0.1 rec=0.3 seed42 trajectory

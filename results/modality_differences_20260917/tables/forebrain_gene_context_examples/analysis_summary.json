@@ -1,0 +1,12 @@
+{
+  "panel_median_context_effect": 0.6789694225904596,
+  "matched_null_context_percentile": 0.266,
+  "panel_median_pretraining_increment": -0.01081212122626296,
+  "matched_null_increment_percentile": 0.338,
+  "panel_genes_with_context_score": 9,
+  "epoch11_direction_consistency": 0.9027972027972028,
+  "panel_direction_consistency_u": 0.921875,
+  "panel_direction_consistency_s": 0.96875,
+  "panel_direction_consistency_distance": 0.953125,
+  "panel_replicated_contrasts_per_readout": 64
+}

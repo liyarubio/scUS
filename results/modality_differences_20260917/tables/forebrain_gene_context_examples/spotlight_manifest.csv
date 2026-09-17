@@ -1,0 +1,7 @@
+gene,u_bin,s_bin,type_a,type_b
+FOXG1,6,15,Immature Neuron,Radial Glia
+PAX6,11,15,Neuroblast,Radial Glia
+EMX1,10,14,Neuron,Radial Glia
+LHX2,13,15,Neuroblast,Radial Glia
+DCX,11,15,Immature Neuron,Neuron
+BCL11B,15,15,Immature Neuron,Neuron

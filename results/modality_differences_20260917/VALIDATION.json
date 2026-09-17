@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "validation_scope": "local export checked before publication; upload is verified separately against the remote commit",
+  "repository": "liyarubio/scUS",
+  "repository_path": "results/modality_differences_20260917",
+  "source_artifacts": 44,
+  "files_before_validation_json": 47,
+  "total_bytes_before_validation_json": 22796483,
+  "maximum_file_bytes": 6000630,
+  "broken_links": [],
+  "sensitive_paths_or_patterns": [],
+  "source_and_binary_artifacts_unchanged": true,
+  "omitted_historical_references": 104,
+  "raw_data_embeddings_checkpoints_included": false
+}
