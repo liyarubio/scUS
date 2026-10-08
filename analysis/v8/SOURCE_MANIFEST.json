@@ -1,0 +1,372 @@
+{
+  "source_version": "iclr2027_paper_revision_v8_20260926",
+  "scope": "Code and protocol metadata only. No manuscript, patent document, raw data, per-cell outputs, embeddings, checkpoints or figures.",
+  "files": [
+    {
+      "path": "archive/manuscript/revision_tables.py",
+      "source": "scUS_results/iclr2027_paper_revision_v8_20260926/manuscript/revision_tables.py",
+      "sha256": "9fe02c27c5ab0b1a741db2926011c8a38cf6a88790c2fb37555ff8b725eb20e6",
+      "scope": "exact v8 saved-output script; external input bundle required"
+    },
+    {
+      "path": "archive/manuscript/timecourse_tables.py",
+      "source": "scUS_results/iclr2027_paper_revision_v8_20260926/manuscript/timecourse_tables.py",
+      "sha256": "699c92895e9d72c93f9cf21aac9d7f9e0e87559d7945e3b2cc1fa23c74fb1400",
+      "scope": "exact v8 saved-output script; external input bundle required"
+    },
+    {
+      "path": "archive/manuscript/compose_figures.py",
+      "source": "scUS_results/iclr2027_paper_revision_v8_20260926/manuscript/compose_figures.py",
+      "sha256": "04e8f1c8f243ee0fcb88b0b03e41233345e88ae0d58d5efcd8d3cdcf3e9df1fd",
+      "scope": "exact v8 saved-output script; external input bundle required"
+    },
+    {
+      "path": "archive/manuscript/raster_helpers.py",
+      "source": "scUS_results/iclr2027_paper_revision_v8_20260926/manuscript/raster_helpers.py",
+      "sha256": "bb656692ae5a1d97eaac49e8a6cfcd45a295e437a050637274637b49bfdd8ec0",
+      "scope": "exact v8 saved-output script; external input bundle required"
+    },
+    {
+      "path": "protocols/readout_protocols.json",
+      "source": "scUS_results/iclr2027_paper_revision_v8_20260926/manuscript/sources_metadata/readout_protocols.json",
+      "sha256": "790cae130063d353234df70236bfc8a17142c1add9086d2c89c773cd333f923a",
+      "scope": "exact v8 protocol and four producer hashes"
+    },
+    {
+      "path": "protocols/lps_inputs.json",
+      "source": "scUS_results/iclr2027_paper_revision_v8_20260926/manuscript/sources_metadata/lps_inputs.json",
+      "sha256": "e5d33a81d0c00054ec828e033dc8297c83b9d600103933562624344182bfe077",
+      "scope": "exact v8 input checksums; input data not distributed"
+    },
+    {
+      "path": "archive/benchmark/code/common.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/common.py",
+      "sha256": "f855a8754af404b06e8b79b1a8160f70faa1d79037073685a2a561f9a41cc4f8",
+      "scope": "historical benchmark producer; original paths retained; not a portable full-data rerun"
+    },
+    {
+      "path": "archive/benchmark/code/data.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/data.py",
+      "sha256": "49583e9ebe1513a8a04b92ec035b5a891a57764fce63b5f2528f7b9666c46a37",
+      "scope": "historical benchmark producer; original paths retained; not a portable full-data rerun"
+    },
+    {
+      "path": "archive/benchmark/code/features.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/features.py",
+      "sha256": "0821801a0f65159d4bae06ba6e649291ded3f52bdd42406e6cb72d88d1280a8c",
+      "scope": "historical benchmark producer; original paths retained; not a portable full-data rerun"
+    },
+    {
+      "path": "archive/benchmark/code/model_worker.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/model_worker.py",
+      "sha256": "34f9d8b65210e80638e6c6cb923af69af00f2eade70c3b441c15cd774315e86a",
+      "scope": "historical benchmark producer; original paths retained; not a portable full-data rerun"
+    },
+    {
+      "path": "archive/benchmark/code/velocity_worker.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/velocity_worker.py",
+      "sha256": "2536b1af8e289e6fdc0bb65c33eaee5ba7905b84b193e941636c498a06a0dcac",
+      "scope": "historical benchmark producer; original paths retained; not a portable full-data rerun"
+    },
+    {
+      "path": "archive/benchmark/code/transforms.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/transforms.py",
+      "sha256": "e7fd842e22e8d88ff2e4e2951d4923497163dedee68e3be58dfece7f5fc98a57",
+      "scope": "historical benchmark producer; original paths retained; not a portable full-data rerun"
+    },
+    {
+      "path": "archive/benchmark/code/distances.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/distances.py",
+      "sha256": "9c8849cb63ce00979e536daf4a19496d4ec8d009b2ea34879a0dcb0431384c91",
+      "scope": "historical benchmark producer; original paths retained; not a portable full-data rerun"
+    },
+    {
+      "path": "archive/benchmark/code/evaluate.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/evaluate.py",
+      "sha256": "22499a326f5fb698ea214c2096231f2cc33b1f79fba1a049acb8d523280d2737",
+      "scope": "historical benchmark producer; original paths retained; not a portable full-data rerun"
+    },
+    {
+      "path": "archive/benchmark/code/plot.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/plot.py",
+      "sha256": "5eff4240793d6a50f419da14553256864a7be7ce142fd7a2930bf5604242c73f",
+      "scope": "historical benchmark producer; original paths retained; not a portable full-data rerun"
+    },
+    {
+      "path": "archive/benchmark/code/test_math.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/test_math.py",
+      "sha256": "e3eceeadee3f443fb7af46a2f42b94909948e1d5deb09366f9a81e1369836051",
+      "scope": "historical benchmark producer; original paths retained; not a portable full-data rerun"
+    },
+    {
+      "path": "archive/benchmark/code/test_transforms.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/test_transforms.py",
+      "sha256": "177cf4fd3f56f8100131852a349e73873f4ce938f9323646f4298160d9c21532",
+      "scope": "historical benchmark producer; original paths retained; not a portable full-data rerun"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/__init__.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/__init__.py",
+      "sha256": "f15e60f1b09384d693918b03df1123c15b7b182e92976e24f565524b4876803b",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/ablations.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/ablations.py",
+      "sha256": "0fa7802443d2a1a2fa8ecc3cafb311f54c0372426468a23ba4428c430e92c409",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/align.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/align.py",
+      "sha256": "001bc12daea3ec73f02e0c8a1ada7e72f01c1f7ea2e82c866aa83284a37bbfe1",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/artifacts.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/artifacts.py",
+      "sha256": "9b72df258926caf772687d1958184deb8bf69d05502128b9f4645583f3214a4f",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/cli.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/cli.py",
+      "sha256": "9ccfc7e6ab2f976ca3de88a9b115e249103398ec1c0a0f7ab7adb4b4a026fff1",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/config.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/config.py",
+      "sha256": "7355b8d86ade96618ed5b572b70fb17f2bd9c7a2a7c2d83ad6c1f34e0999ba45",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/data/__init__.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/data/__init__.py",
+      "sha256": "27cd4e3e450ae98cde536e68e499f25cb736cb2ab9bb44915a1554ba26bc5e7d",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/data/prepare.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/data/prepare.py",
+      "sha256": "973a22d3c042b083c54385dbf35b0d78806a834a648d168988b3883802f4541e",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/data/pretraining.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/data/pretraining.py",
+      "sha256": "c75ffd34ac3eec1d1061462aae4c082a798f767530f92e093852abfe2c57de48",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/data/tokens.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/data/tokens.py",
+      "sha256": "c4f2b58e69608731c49300f257d1a31c62dc58769d0f0869efe993613c8c8bd5",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/examples.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/examples.py",
+      "sha256": "f61a9f1ad9695b8993b1d8f2807cb6dd1880014d53a814864d890f52e772c772",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/full_context_ablation.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/full_context_ablation.py",
+      "sha256": "192b7d29ac811d678ef1cdc6243326ab7caf17b2396abd34b5d7e109d7d79cb7",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/iclr_distance.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/iclr_distance.py",
+      "sha256": "4eb880989ad8c3dae0d66266d39dcd55e6e994d8d067fe690c1d7bbd0ecae8f0",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/joint_batch.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/joint_batch.py",
+      "sha256": "f84cea59f4803347e5ab1c412adb39a9ed9ca969057002b0427520d67af6fcb8",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/joint_projection.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/joint_projection.py",
+      "sha256": "866b650288c8073e308ffcaeaf14460b827b27fa3669fee4de137b2fce211095",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/joint_qc.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/joint_qc.py",
+      "sha256": "f2e34921689d6e4e31466ea56b2b016aee9e022a1c7648a50b06862544357a37",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/joint_reconstruction.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/joint_reconstruction.py",
+      "sha256": "b837554942a2bff8762055aa93d94bc20f9bdf08db58c50eed0706c626fbec1f",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/joint_training.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/joint_training.py",
+      "sha256": "f43c9a09ec27ca7236843c46074dcb90b391bb8f21be7f9713f562ebfc7cd118",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/models/__init__.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/models/__init__.py",
+      "sha256": "f53f1c36f26c5737202b45cdddc6d09ebc31ce66e68190879e5f35b170677a25",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/models/attention.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/models/attention.py",
+      "sha256": "0a39f8de418788c0fdf2b47b6467319e4c6d7d114b0084db58fd300d83460551",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/models/embedding_encoder.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/models/embedding_encoder.py",
+      "sha256": "52b15443be4f9b6cb0187a37c81e1e008aedee2b1e7f9096c5d564960c04cab2",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/models/masked_model.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/models/masked_model.py",
+      "sha256": "7d0f7cbcb5a4286b89851371bb5ef48422529cd215d2cd0904e23a812efc3817",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/perturbation.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/perturbation.py",
+      "sha256": "753b77e60ea953d1c991150c9b9ae27754c7ed843ee5b0b67bebdb35d330512a",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/pretrain.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/pretrain.py",
+      "sha256": "7f8e5f480cfde5dc41b7e8aecae9d35cf52755b650d939300e314a499b8d4d6f",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/runtime.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/runtime.py",
+      "sha256": "becd06ede3451b54b1c027ea762606b919049513f2617317e35260de7c3b78cf",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/semantics.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/semantics.py",
+      "sha256": "bca1bc51f1979c1a712c21dd7872b7e9aca2fbe8bbeb3812b1ee5aa4c10e5e87",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/semantics_workflow.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/semantics_workflow.py",
+      "sha256": "bfea60175eaf76a34172c92d244e6aa1909d0f42621366a6bcd9cdb2ac24bb89",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/training_diagnostics.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/training_diagnostics.py",
+      "sha256": "2181d6ac67611832f0c6497113a34db7046a5b4d4e195551665a1bab01835432",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/validation.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/validation.py",
+      "sha256": "d8237871837e80625cb8c6be6cc0d7e5f4a9b5d1626f50756aef88fd30452e1f",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/benchmark/code/vendor/scus/zero_shot.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/benchmark/code/vendor/scus/zero_shot.py",
+      "sha256": "e67cdb9702025bf86d15246ed6f20c7455e35c61ebea3ddd5b8b9c0cdf1bb9e9",
+      "scope": "historical scUS support code; isolated from installed package"
+    },
+    {
+      "path": "archive/context/forebrain_gene_context_examples.py",
+      "source": "scUS_results/iclr2027_paper_revision_v6_20260926/sources/context/code/forebrain_gene_context_examples.py",
+      "sha256": "136f54bc9abd1e88b7134766e65b944ff6f9e3963de4faadf8899b7cddab7bdc",
+      "scope": "historical context analysis; exact cache export revision remains unresolved"
+    },
+    {
+      "path": "archive/context/plot_mu_ms_case_highlights.py",
+      "source": "scUS_results/iclr2027_paper_package_20260925/source/P12_context/plot_mu_ms_case_highlights.py",
+      "sha256": "b918819ff63ff0c2bd0807da07a773e3a4b04f1ec6ddc0d9039045b701fe16cb",
+      "scope": "historical matched-bin display; local inputs required"
+    },
+    {
+      "path": "archive/context/plot_combined_mu_ms.py",
+      "source": "scUS_results/iclr2027_paper_package_20260925/source/P12_context/plot_combined_mu_ms.py",
+      "sha256": "3644d40e0ce537e896cfbafdbb41f01d229994d645779c1c6b2845f586b6c423",
+      "scope": "historical matched-bin display; local inputs required"
+    },
+    {
+      "path": "archive/context/build_expression_overview.py",
+      "source": "scUS_results/iclr2027_paper_package_20260925/source/P12_context/build_expression_overview.py",
+      "sha256": "2a2de81d283aa0d2ef824f834124d346192ee86fa70b3f2c64b69284254fd0b8",
+      "scope": "historical matched-bin display; local inputs required"
+    },
+    {
+      "path": "archive/diagnostics/all_gene_context_align.py",
+      "source": "scUS_results/iclr2027_paper_package_20260925/source/scUS/scripts/all_gene_context_align.py",
+      "sha256": "82f8148378d59debc3828c6093743971ff493b8453317c10021b90eacd69b205",
+      "scope": "historical diagnostic source; contains additional conditions not used in v8"
+    },
+    {
+      "path": "archive/diagnostics/pairing_three_models.py",
+      "source": "scUS_results/iclr2027_paper_package_20260925/source/scUS/scripts/pairing_three_models.py",
+      "sha256": "cf101fa3c88ff410a1430442aeb6412eab15af0536f9f35cb45a570d299222f5",
+      "scope": "historical diagnostic source; contains additional conditions not used in v8"
+    },
+    {
+      "path": "archive/diagnostics/training_diagnostics.py",
+      "source": "scUS_results/iclr2027_paper_package_20260925/source/scUS/src/scus/training_diagnostics.py",
+      "sha256": "2181d6ac67611832f0c6497113a34db7046a5b4d4e195551665a1bab01835432",
+      "scope": "historical training-log parser and plotting code"
+    },
+    {
+      "path": "archive/multiomics/multivelo_mouse_trimodal_scus.py",
+      "source": "scUS_results/iclr2027_paper_package_20260925/source/P15_temporal/multivelo_mouse_trimodal_scus.py",
+      "sha256": "1a4c30fc8fd9ad8c3d7aee9cd2c8bbafa8c4b1a9d89ccde471a514b4cb509fa1",
+      "scope": "historical target-adapted analysis; exact exported checkpoint binding unresolved"
+    },
+    {
+      "path": "archive/multiomics/plot_multivelo_fig2g_scus_distance_heatmap.py",
+      "source": "scUS_results/iclr2027_paper_package_20260925/source/P15_temporal/plot_multivelo_fig2g_scus_distance_heatmap.py",
+      "sha256": "acccf30fa10948a1063438bf062939ffeb2a51c393373c4ecc4d6438b26c9f1e",
+      "scope": "historical target-adapted analysis; exact exported checkpoint binding unresolved"
+    },
+    {
+      "path": "archive/timecourse/code/framework_stats.py",
+      "source": "scUS_results/lps_distance_expression_timing_20260925/code/framework_stats.py",
+      "sha256": "654ce8b210ebdcfbc513117feb885bfd376a3ef5b423349d7efe713178743884",
+      "scope": "historical exploratory cell-level screen; separate from display rank tests"
+    },
+    {
+      "path": "archive/timecourse/code/analyze.py",
+      "source": "scUS_results/lps_distance_expression_timing_20260925/code/analyze.py",
+      "sha256": "5f92ce57e895034b940594312757cd8d303b8a63f729577fe0f99c265a5e7058",
+      "scope": "historical exploratory cell-level screen; separate from display rank tests"
+    },
+    {
+      "path": "archive/timecourse/code/prepare_moments.py",
+      "source": "scUS_results/lps_distance_expression_timing_20260925/code/prepare_moments.py",
+      "sha256": "4e2e5f05b0502fe495f6a71e2d8767f31cf77665e57c106b74c7dff351a8a361",
+      "scope": "historical exploratory cell-level screen; separate from display rank tests"
+    },
+    {
+      "path": "archive/timecourse/code/test_framework.py",
+      "source": "scUS_results/lps_distance_expression_timing_20260925/code/test_framework.py",
+      "sha256": "2091ad88009fb1cff0c6f38bdda8c8ded4056e7ff61561eb060c6d35be0de823",
+      "scope": "historical exploratory cell-level screen; separate from display rank tests"
+    },
+    {
+      "path": "archive/timecourse/protocol.json",
+      "source": "scUS_results/lps_distance_expression_timing_20260925/protocol.json",
+      "sha256": "4f976a23c2319bb33c778dd5382c2aabf7d213a4162faf15f9ed6a81c7ed0548",
+      "scope": "original screening margins, family, and evidence limitations"
+    }
+  ]
+}

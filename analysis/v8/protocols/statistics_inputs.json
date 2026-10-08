@@ -1,0 +1,172 @@
+{
+  "files": [
+    {
+      "path": "evidence/clustering_grid_recomputed.csv",
+      "sha256": "9d6e2b57bc34e754c40c066405e40f9927ec3d2fd596c82b620422100cd503ca",
+      "bytes": 68399
+    },
+    {
+      "path": "evidence/context_distance_64_contrasts_recomputed.csv",
+      "sha256": "74d6a0387ad3abb3910093cfe9d9eae409e92d3b8fa9c603d5cc347429408593",
+      "bytes": 32014
+    },
+    {
+      "path": "evidence/primary_metrics_recomputed.csv",
+      "sha256": "cd66c095d65491572a8305cd78b4416c0afa0e04e1666791377efc1df4f88c14",
+      "bytes": 7705
+    },
+    {
+      "path": "evidence/skap2_corrected_tests_recomputed.csv",
+      "sha256": "e5a3f1cb412e47f6a48182eb3a8b30d8aae7517f4d3067ed39d3ae76317ce236",
+      "bytes": 1248
+    },
+    {
+      "path": "figure_data/skap2.csv.gz",
+      "sha256": "d49dfa1feff5658bc7540f11e3916ebd8c0f7121deeb58071830f411a21049ae",
+      "bytes": 85472
+    },
+    {
+      "path": "lps_data/SKAP2_tests.csv",
+      "sha256": "791cec51250882c6a8ae952a87604a50ece7c6c6fbea66877ca78550916cddd9",
+      "bytes": 9641
+    },
+    {
+      "path": "lps_data/all_gene_tests.csv.gz",
+      "sha256": "1aa2ab72bb7ef7f4b8ff395dfb14bc85692f5317486b6eca52736530425a6d43",
+      "bytes": 21272756
+    },
+    {
+      "path": "lps_data/candidate_sensitivity.csv",
+      "sha256": "b342e7314eb4d3c074ce7ed6aff5ceba62414289c89444a64aca9931fb01661e",
+      "bytes": 12380
+    },
+    {
+      "path": "lps_data/candidates_US.csv",
+      "sha256": "5945cd9c209932483deb43126546ea9a35f9c9cec3d3a53393f5d6d7744ea026",
+      "bytes": 3080
+    },
+    {
+      "path": "lps_data/candidates_matched.csv",
+      "sha256": "e5b4672c59921d11b07ec339274b7093aef7aa5a28230e1d92dbef7d95cf7a80",
+      "bytes": 12283
+    },
+    {
+      "path": "lps_data/candidates_total.csv",
+      "sha256": "e5b4672c59921d11b07ec339274b7093aef7aa5a28230e1d92dbef7d95cf7a80",
+      "bytes": 12283
+    },
+    {
+      "path": "lps_data/cells.csv.gz",
+      "sha256": "b0b3aad5f3eb1ea9fcf11fb3bac2745db1e58c90479e3ebe862dc68da072dd3a",
+      "bytes": 36095
+    },
+    {
+      "path": "lps_data/cohort.csv",
+      "sha256": "8149d86f779d7095e52d1f31cb07c2feb54a16fee6628d7d0e0c4770096a7ab9",
+      "bytes": 114
+    },
+    {
+      "path": "lps_data/cross_time_summary.csv",
+      "sha256": "691b6a432f23b2819310c301c7928dc75df89953e7e3d5779554a3f8aa4c4fa3",
+      "bytes": 9208
+    },
+    {
+      "path": "lps_data/early_distance_candidates.csv",
+      "sha256": "f4d85804892b2dbd360a14805f1b8740da614ffed09f6787f913e0ebd4cb5421",
+      "bytes": 182
+    },
+    {
+      "path": "lps_data/example_cells.csv.gz",
+      "sha256": "c7384b1dff83a270d159d87b1c42cc892bf711ac5bf4fff4aa81679ec64f5748",
+      "bytes": 129848
+    },
+    {
+      "path": "lps_data/forward_overlap_decomposition.csv",
+      "sha256": "0cd6197f01b877f97959b9f8894383af217335e80fc5fbfa0f45d9e7bd437d16",
+      "bytes": 338
+    },
+    {
+      "path": "lps_data/go_GO_BP_significant.csv",
+      "sha256": "8715cb29eeec6602db099083ca9e9d35247bedbb95671eb4cdbdb2699ceeeb79",
+      "bytes": 264524
+    },
+    {
+      "path": "lps_data/go_protocol.json",
+      "sha256": "94d3f09734bd1293b457e3ef7d8d17257bbc0061b14aea28eea25364b0c87d60",
+      "bytes": 2354
+    },
+    {
+      "path": "lps_data/go_set_summary.csv",
+      "sha256": "185d8813bb767693afc1857d8e711c20962b0a9a87e89f53a56b1847d1b3fdc5",
+      "bytes": 690
+    },
+    {
+      "path": "lps_data/historical_validation.json",
+      "sha256": "546a463ab7886a96789bd1c99ff6e2fef1445bd1d4e31e815fe842fa1ebac72b",
+      "bytes": 733
+    },
+    {
+      "path": "lps_data/neighbor_group_mixing.csv",
+      "sha256": "5f472730074641a0b4e686839ba22e6541988eb1098577f6263c81489b9aa991",
+      "bytes": 627
+    },
+    {
+      "path": "lps_data/onset_by_gene.csv",
+      "sha256": "9de366c7a7787aa0c34bc1876fd1f4011e1663ec7103c14da41acd8bd39da7ee",
+      "bytes": 541511
+    },
+    {
+      "path": "lps_data/onset_counts.csv",
+      "sha256": "1a7a7b40652b917160aea3eced31793b7c90e5ce4a698b5c1a8a7a74ee50ab79",
+      "bytes": 186
+    },
+    {
+      "path": "lps_data/protocol.json",
+      "sha256": "4f976a23c2319bb33c778dd5382c2aabf7d213a4162faf15f9ed6a81c7ed0548",
+      "bytes": 3078
+    },
+    {
+      "path": "lps_data/readout_onset_sensitivity.csv",
+      "sha256": "dd3e88aff60517b284109543e74d0b5e22aba21994ab43f31d55ae7f3c3dd1a0",
+      "bytes": 414
+    },
+    {
+      "path": "lps_data/venn_counts.csv",
+      "sha256": "858f85b9eaeb0c1eddae3c2661b374a68d17f4b3d1a7e4c44173484323caefe6",
+      "bytes": 404
+    },
+    {
+      "path": "lps_data/venn_membership.csv",
+      "sha256": "bda5525c5f2a1ef70182bfca8eea11c1075e8e086647fd41e0067fbbda0ea450",
+      "bytes": 2395723
+    },
+    {
+      "path": "sources_metadata/lps_inputs.json",
+      "sha256": "e5d33a81d0c00054ec828e033dc8297c83b9d600103933562624344182bfe077",
+      "bytes": 3557
+    }
+  ],
+  "reference_outputs": [
+    "revision_data/all_29_primary.csv",
+    "revision_data/context_by_gene.csv",
+    "revision_data/context_effects.csv",
+    "revision_data/context_model_summary.csv",
+    "revision_data/context_paired_differences.csv",
+    "revision_data/context_paired_differences_by_gene.csv",
+    "revision_data/context_paired_summary.csv",
+    "revision_data/core_clustering.csv",
+    "revision_data/core_methods.csv",
+    "revision_data/core_setting_comparisons.csv",
+    "revision_data/figure4_significance.csv",
+    "revision_data/figure5_significance.csv",
+    "revision_data/lps_all_total_candidates.csv",
+    "revision_data/lps_detection_counts.csv",
+    "revision_data/lps_gene_effects.csv",
+    "revision_data/lps_onset_counts.csv",
+    "revision_data/lps_skap2_summary.csv",
+    "revision_data/rpl23_rank_tests.csv",
+    "revision_data/rpl23_timecourse.csv",
+    "revision_data/skap2_timecourse.csv"
+  ],
+  "scope": "Hash metadata only; input tables and individual observations are not part of this release."
+}

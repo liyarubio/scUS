@@ -9,17 +9,25 @@ are not included.
 
 ## Research results
 
-The [2026-09-17 results snapshot](results/modality_differences_20260917/README.md)
-examines whether differences between paired RNA representations can themselves
-encode cell state. It includes a Chinese evidence summary, original PNG/PDF
-figures, result tables, and provenance hashes. Negative controls and limitations
-are retained; the results do not establish RNA velocity, causal effects,
-universal anomaly detection, or state-of-the-art performance.
+The latest [v8 analysis-code release](analysis/v8/README.md) follows
+`iclr2027_paper_revision_v8_20260926`. It provides checksum-tracked producer
+snapshots, an executable saved-statistics recomputation entry point, numerical
+tests, and [Chinese evidence notes](analysis/v8/EVIDENCE_CN.md). The supported
+finding is that gene-indexed paired-representation distances retain cell-state
+structure in the evaluated protocols. External comparisons are mixed; the
+results do not establish general superiority, RNA velocity or causal effects.
 
-Start with [the main results and interpretation](results/modality_differences_20260917/MODALITY_DIFFERENCES_AS_CELL_REPRESENTATIONS_CN.md).
-Historical joint-fine-tuning analyses in the snapshot are distinct from the
-shared-residual Align workflow implemented in this package. The result snapshot
-is not a standalone reproduction environment for every historical experiment.
+The v8 benchmark uses full, untruncated gene context and cohort-level
+preprocessing. The default 1,000-gene inference configuration is a different
+protocol. Saved-table recomputation is separate from rerunning model inference;
+external datasets and weights are required for the historical producers. The
+multiomic export checkpoint remains unresolved. See the release code map for
+these limits.
+
+The [2026-09-17 results snapshot](results/modality_differences_20260917/README.md)
+is retained as historical evidence. Its joint-fine-tuning analyses are distinct
+from the shared-residual Align workflow in the installable package and from the
+frozen v8 U/S benchmark.
 
 ## Architecture
 

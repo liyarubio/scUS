@@ -1,0 +1,138 @@
+{
+  "scope": "Saved-output numerical recomputation only; no training, inference or clustering.",
+  "input_files": 29,
+  "archive_files": 61,
+  "reference_comparisons": [
+    {
+      "path": "revision_data/all_29_primary.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "3c23edcafb016831f07294378303e7d4a9536b1107e37edcaa6360ad55633440",
+      "produced_sha256": "3c23edcafb016831f07294378303e7d4a9536b1107e37edcaa6360ad55633440"
+    },
+    {
+      "path": "revision_data/context_by_gene.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "5aa07d5e81d38b2d27e2e862060abacf6236ea7d56e846ec4c01119cb75f23fd",
+      "produced_sha256": "5aa07d5e81d38b2d27e2e862060abacf6236ea7d56e846ec4c01119cb75f23fd"
+    },
+    {
+      "path": "revision_data/context_effects.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "3b21c6a40bc23e2bcef6f950d194ddf52f4f7bdbe423e96f2c4a0adc37523d06",
+      "produced_sha256": "3b21c6a40bc23e2bcef6f950d194ddf52f4f7bdbe423e96f2c4a0adc37523d06"
+    },
+    {
+      "path": "revision_data/context_model_summary.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "fa01773a28f2693fac6616916b4bf7291c8ef13f13426ddb1b246b4938de20de",
+      "produced_sha256": "fa01773a28f2693fac6616916b4bf7291c8ef13f13426ddb1b246b4938de20de"
+    },
+    {
+      "path": "revision_data/context_paired_differences.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "d39c49087109b57b7a69fd4a1f4a5405febbd285f5432371ffde32ea82aa10e8",
+      "produced_sha256": "d39c49087109b57b7a69fd4a1f4a5405febbd285f5432371ffde32ea82aa10e8"
+    },
+    {
+      "path": "revision_data/context_paired_differences_by_gene.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "0dcf4d5cf3ecaa82b56c656f8f82941ec39094bfa8dd5874aa18af4c7a2b18d6",
+      "produced_sha256": "0dcf4d5cf3ecaa82b56c656f8f82941ec39094bfa8dd5874aa18af4c7a2b18d6"
+    },
+    {
+      "path": "revision_data/context_paired_summary.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "b29d893558cc40ce900ce2f84233286dad0ee897695cfe0e7fb8cf49d1efe577",
+      "produced_sha256": "b29d893558cc40ce900ce2f84233286dad0ee897695cfe0e7fb8cf49d1efe577"
+    },
+    {
+      "path": "revision_data/core_clustering.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "3ed8211695679742306a26da6014784966eac480c691593459187523b896c0fe",
+      "produced_sha256": "3ed8211695679742306a26da6014784966eac480c691593459187523b896c0fe"
+    },
+    {
+      "path": "revision_data/core_methods.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "7a49e5cb0475540543abfd2f0abc71fe222c0024f5ffe8346091b1d2c667b28a",
+      "produced_sha256": "7a49e5cb0475540543abfd2f0abc71fe222c0024f5ffe8346091b1d2c667b28a"
+    },
+    {
+      "path": "revision_data/core_setting_comparisons.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "b37acf2d8988b110019be5ddf01e953d3610b089d8950f1e14384ccb9846c7ab",
+      "produced_sha256": "b37acf2d8988b110019be5ddf01e953d3610b089d8950f1e14384ccb9846c7ab"
+    },
+    {
+      "path": "revision_data/figure4_significance.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "c9d4d2b2b8924b5077c216a33c73461848316985228d938a51b6c3de19f11f64",
+      "produced_sha256": "c9d4d2b2b8924b5077c216a33c73461848316985228d938a51b6c3de19f11f64"
+    },
+    {
+      "path": "revision_data/figure5_significance.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "2b05ef9a6f67f78cc6f3260ab350a0dfbc3e62d66f8378d6b55430d4f98f6ddb",
+      "produced_sha256": "2b05ef9a6f67f78cc6f3260ab350a0dfbc3e62d66f8378d6b55430d4f98f6ddb"
+    },
+    {
+      "path": "revision_data/lps_all_total_candidates.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "3cf4cd95e4510de8d29cb0748c77e2bc8abfd1d58e5ce8bff4ea9026d2b2c0a0",
+      "produced_sha256": "3cf4cd95e4510de8d29cb0748c77e2bc8abfd1d58e5ce8bff4ea9026d2b2c0a0"
+    },
+    {
+      "path": "revision_data/lps_detection_counts.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "9c811404da8375780962b5478dae294f03a05b14fb1d46c75b42ccc7cf1112e1",
+      "produced_sha256": "9c811404da8375780962b5478dae294f03a05b14fb1d46c75b42ccc7cf1112e1"
+    },
+    {
+      "path": "revision_data/lps_gene_effects.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "61b5c1241629cf365c5090e948b645433d75e164aef18c656d74d97d59c7c449",
+      "produced_sha256": "61b5c1241629cf365c5090e948b645433d75e164aef18c656d74d97d59c7c449"
+    },
+    {
+      "path": "revision_data/lps_onset_counts.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "f04fd8177e86e440cb5bc1e44fbf976e64c6b59267aa2e4ad54f6c2d71a11836",
+      "produced_sha256": "f04fd8177e86e440cb5bc1e44fbf976e64c6b59267aa2e4ad54f6c2d71a11836"
+    },
+    {
+      "path": "revision_data/lps_skap2_summary.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "b7fe6cbb7ac0fcdd1b25591826f01ba225f75b2f2c07ac0fd0118f574b356156",
+      "produced_sha256": "b7fe6cbb7ac0fcdd1b25591826f01ba225f75b2f2c07ac0fd0118f574b356156"
+    },
+    {
+      "path": "revision_data/rpl23_rank_tests.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "bdbda7be00dc77cf9f066e2d5bc016ef8d68fd37c818a50ee3c92129ada0a0fd",
+      "produced_sha256": "bdbda7be00dc77cf9f066e2d5bc016ef8d68fd37c818a50ee3c92129ada0a0fd"
+    },
+    {
+      "path": "revision_data/rpl23_timecourse.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "483083017ed723506581bcbedce82610570208c73157d462ef92cbbc5b2be213",
+      "produced_sha256": "483083017ed723506581bcbedce82610570208c73157d462ef92cbbc5b2be213"
+    },
+    {
+      "path": "revision_data/skap2_timecourse.csv",
+      "status": "matches_saved_v8",
+      "reference_sha256": "86b1842a0c7d96944fb90c473c8d107b767e02054a1300ec01eeeeab9307a8f4",
+      "produced_sha256": "86b1842a0c7d96944fb90c473c8d107b767e02054a1300ec01eeeeab9307a8f4"
+    }
+  ],
+  "all_reference_outputs_supplied": true,
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.2",
+    "scipy": "1.16.2"
+  },
+  "limitations": [
+    "Exploratory cell-level time-course tests; independent cultures unverified.",
+    "Context summaries use overlapping strata, not independent biological replicates.",
+    "This command does not reproduce model inference, clustering or multiomic export."
+  ]
+}

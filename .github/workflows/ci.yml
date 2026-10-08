@@ -19,3 +19,14 @@ jobs:
       - run: scus-pretrain --help
       - run: scus --help
       - run: pytest
+
+  v8-analysis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install -e ".[analysis,dev]"
+      - run: python analysis/v8/reproduce.py --help
+      - run: pytest tests/test_v8_release.py

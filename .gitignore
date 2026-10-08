@@ -30,3 +30,13 @@ dist/
 # Local path-bearing configurations
 configs/local*.yaml
 examples/**/local*.yaml
+
+# Local generated files inside archived research workflows
+analysis/v8/archive/**/.cache/
+analysis/v8/archive/**/datasets/
+analysis/v8/archive/**/logs/
+analysis/v8/archive/**/locks/
+analysis/v8/archive/benchmark/tests/
+analysis/v8/archive/timecourse/data/
+analysis/v8/archive/timecourse/tables/
+analysis/v8/archive/timecourse/audit/

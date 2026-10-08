@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "knn": 15,
+  "leiden_resolutions": [
+    0.5,
+    1,
+    1.5
+  ],
+  "leiden_seeds": [
+    42,
+    43,
+    44
+  ],
+  "umap_min_dist": 0.5,
+  "umap_epochs": 500,
+  "block_rows": 256,
+  "block_cols": 2048,
+  "scvi_epochs": 10,
+  "scus_batch": 1,
+  "scgpt_batch": 32,
+  "scfoundation_batch": 4,
+  "min_gene_observations": 50,
+  "scus_checkpoint": "/path/to/scus_checkpoint",
+  "vocab": "/path/to/vocab",
+  "scgpt_model": "/path/to/scgpt_model",
+  "scfoundation_model": "/path/to/scfoundation_model",
+  "input_definition": "raw_U_plus_S",
+  "reference_scope": "all_target_cells_descriptive",
+  "python": "python",
+  "scfoundation_python": "python",
+  "model_python": "python",
+  "scgpt_python": "python",
+  "velocity_n_jobs": 4,
+  "velocity_hvg": 2000,
+  "velocity_min_shared_counts": 20
+}

@@ -1,0 +1,53 @@
+{
+  "fitting_scope": "all target cohort; descriptive transductive analysis",
+  "readouts": {
+    "raw_distance_profile": "Paired-gene panel; cohort coordinate standardization; RMS over jointly observed entries.",
+    "direct_bin_difference": "Paired-gene panel; cohort coordinate standardization; RMS over jointly observed entries.",
+    "continuous_moments_abs_difference": "Paired-gene panel; cohort coordinate standardization; RMS over jointly observed entries.",
+    "pair_mask": "Same paired-gene panel; binary availability; Jaccard.",
+    "distance_scalar": "Median of observed gene distances; standardized one-dimensional RMS.",
+    "gene_shuffled_distance": "Row permutation including missing entries; standardized RMS; mask not preserved.",
+    "u_bin_profile": "State-specific eligibility; zero bins unavailable; cohort standardization and RMS.",
+    "s_bin_profile": "State-specific eligibility; zero bins unavailable; cohort standardization and RMS.",
+    "mu_profile": "State-specific positive-observation eligibility; moment zeros numerical; standardization and RMS.",
+    "ms_profile": "State-specific positive-observation eligibility; moment zeros numerical; standardization and RMS.",
+    "u_only": "Mean U vector over paired eligible genes; 128D; cohort standardization and RMS.",
+    "s_only": "Mean S vector over paired eligible genes; 128D; cohort standardization and RMS.",
+    "concatenated_u_s": "Concatenated mean U and mean S vectors over paired eligible genes; 256D; cohort standardization and RMS.",
+    "state": "Elementwise mean of mean U and mean S vectors; 128D; cohort standardization and RMS.",
+    "u_hidden_sum_profile": "Sum hidden coordinates per gene; own state-specific observed panel; not full vectors or norms; standardization and RMS.",
+    "s_hidden_sum_profile": "Sum hidden coordinates per gene; own state-specific observed panel; not full vectors or norms; standardization and RMS.",
+    "concat_hidden_sum_profile": "Sum hidden coordinates per gene; own state-specific observed panel; not full vectors or norms; standardization and RMS.",
+    "calibrated_distance_profile": "All-cohort gene median and bin-pair residual correction, gene MAD scaling; paired panel, standardization, RMS; not cross-fit.",
+    "scGPT": "Native raw-U+S CLS, 1200-token maximum; Euclidean.",
+    "scFoundation": "Native shiftlog|pearson filtering and 3072D pooling; Euclidean.",
+    "scVI": "Target-trained 10 epochs, raw U+S, 128D, 2 layers, ZINB, learning rate .01; Euclidean.",
+    "expression_u_counts": "Source count gene space; raw or log1p counts; numerical zeros; Euclidean, no additional readout-stage normalization.",
+    "expression_u_log1p": "Source count gene space; raw or log1p counts; numerical zeros; Euclidean, no additional readout-stage normalization.",
+    "expression_s_counts": "Source count gene space; raw or log1p counts; numerical zeros; Euclidean, no additional readout-stage normalization.",
+    "expression_s_log1p": "Source count gene space; raw or log1p counts; numerical zeros; Euclidean, no additional readout-stage normalization.",
+    "expression_u_plus_s_counts": "Source count gene space; raw or log1p counts; numerical zeros; Euclidean, no additional readout-stage normalization.",
+    "expression_u_plus_s_log1p": "Source count gene space; raw or log1p counts; numerical zeros; Euclidean, no additional readout-stage normalization.",
+    "scvelo_stochastic": "Target-fitted velocity producer; signed finite nonconstant producer genes; Euclidean. No transition-direction evaluation.",
+    "scvelo_dynamical": "Target-fitted velocity producer; signed finite nonconstant producer genes; Euclidean. No transition-direction evaluation."
+  },
+  "producer_files": [
+    {
+      "snapshot": "sources/benchmark/code/features.py",
+      "sha256": "0821801a0f65159d4bae06ba6e649291ded3f52bdd42406e6cb72d88d1280a8c"
+    },
+    {
+      "snapshot": "sources/benchmark/code/model_worker.py",
+      "sha256": "34f9d8b65210e80638e6c6cb923af69af00f2eade70c3b441c15cd774315e86a"
+    },
+    {
+      "snapshot": "sources/benchmark/code/transforms.py",
+      "sha256": "e7fd842e22e8d88ff2e4e2951d4923497163dedee68e3be58dfece7f5fc98a57"
+    },
+    {
+      "snapshot": "sources/benchmark/code/velocity_worker.py",
+      "sha256": "2536b1af8e289e6fdc0bb65c33eaee5ba7905b84b193e941636c498a06a0dcac"
+    }
+  ],
+  "producer_snapshot_scope": "Paths identify code snapshots in the local evidence package, outside this document-only source archive. These producers are not required or executed by make check."
+}
